@@ -78,7 +78,7 @@ public class Main {
 						if(richiesta("Vuoi continuare ad inserire i codici?", scanner)==false) {
 							System.out.println("Uscita dal programma...");
 							//da il valore dell'uscita
-							return 7;
+							return 8;
 						}else {
 							i=-1;
 						}
@@ -150,7 +150,7 @@ public class Main {
 			String frase1 = "1) Aggiungere un prodotto."
 					+ "\n2) Rimuovere un prodotto."
 					+ "\n3) Cambiare la quantià di un prodotto."
-					+ "\n4) Cambiare prezzo di un prodtto"
+					+ "\n4) Cambiare prezzo di un prodotto"
 					+ "\n5) Gestione del distributore"
 					+ "\n6) Il totale incasso di un Distributore."
 					+ "\n7) Elenco dei prodotti acquistati con le relative quantità."

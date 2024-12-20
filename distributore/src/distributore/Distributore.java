@@ -236,7 +236,7 @@ public class Distributore
 			
 		} 
 		for (Prodotti z:prodAcquistati) {
-			System.out.println(String.format("[ID: %s, Nome: %s, Categoria: %s, Quantità: %d]", z.getId(), z.getNome(), z.getCategoria()[z.getCont()], z.getQuantita()));
+			System.out.println(String.format("[ID: %s, Nome: %s, Categoria: %s, Quantità: %d]", z.getId(), z.getNome(), z.getCategoria()[z.getCont()-1], z.getQuantita()));
 		}
 	}
 	
